@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CRUD Node.js + Express.js + MongoDB</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Experiencias Profesionales</h1>
+      <form action="/add" method="post">
+        <label for="experience">Nueva experiencia</label>
+        <input
+          type="text"
+          name="text"
+          id="experience"
+          autocomplete="off"
+          placeholder="Ingresa una nueva experiencia"
+        />
+        <button type="submit">Agregar</button>
+      </form>
+      <div id="todos"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
